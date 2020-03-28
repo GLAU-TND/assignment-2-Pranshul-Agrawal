@@ -29,4 +29,7 @@ public class TreeNode {
     public TreeNode getRightChild() {
         return rightChild;
     }
+    public void setRightChild(TreeNode rightChild) {
+        this.rightChild = rightChild;
+    }
 }
