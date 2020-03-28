@@ -23,4 +23,7 @@ public class TreeNode {
     public TreeNode getLeftChild() {
         return leftChild;
     }
+    public void setLeftChild(TreeNode leftChild) {
+        this.leftChild = leftChild;
+    }
 }
