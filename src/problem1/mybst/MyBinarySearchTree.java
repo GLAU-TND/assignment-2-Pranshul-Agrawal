@@ -104,4 +104,7 @@ public class MyBinarySearchTree {
     public boolean isEmpty(){
         return root == null;
     }
+    public TreeNode getRoot(){
+        return root;
+    }
 }
