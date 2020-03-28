@@ -24,6 +24,8 @@ public class Student {
     public int getBackLog() {
         return backLog;
     }
-
+    public void setBackLog(int backLog) {
+        this.backLog = backLog;
+    }
 }
 
