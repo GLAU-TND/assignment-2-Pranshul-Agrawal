@@ -15,5 +15,9 @@ public class Student {
         this.backLog=backLog;
         this.name = name;
     }
+    public String getName() {
+        return name;
+    }
+
 }
 
