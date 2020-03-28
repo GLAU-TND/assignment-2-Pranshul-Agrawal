@@ -8,5 +8,9 @@ public class Element<T> {
         this.node = node;
         this.preOrderSuccessor = preOrderSuccessor;
     }
+    public T getNode() {
+        return node;
+    }
+
 
 }
