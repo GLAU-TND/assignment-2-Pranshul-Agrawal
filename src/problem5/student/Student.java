@@ -27,5 +27,8 @@ public class Student {
     public void setBackLog(int backLog) {
         this.backLog = backLog;
     }
+    public int getAppearingCount() {
+        return appearingCount;
+    }
 }
 
