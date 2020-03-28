@@ -11,5 +11,8 @@ public class MyQueue <T>{
     private Element front;
     private Element back;
     private MyBinarySearchTree tree;
+    public MyQueue(MyBinarySearchTree tree){
+        this.tree = tree;
+    }
 
 }
