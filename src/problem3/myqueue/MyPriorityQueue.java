@@ -32,4 +32,12 @@ public class MyPriorityQueue<T> {
     public boolean isEmpty(){
         return front == null;
     }
+    public T deQueue(){
+        if(isEmpty()){
+            throw new NoSuchElementException();
+        }
+        Node removeNode = front;
+        front = front.getNext();
+        return (T)removeNode.getData();
+    }
 }
