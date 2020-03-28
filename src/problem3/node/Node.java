@@ -10,4 +10,12 @@ public class Node<T> {
     private T data;
     private Node next;
     private int priority;
+    public Node(T data, int priority) {
+        this.data = data;
+        this.priority = priority;
+    }
+
+
+
+
 }
