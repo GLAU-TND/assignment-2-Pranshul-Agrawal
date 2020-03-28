@@ -54,5 +54,8 @@ public class MyCircularQueue {
             System.out.println(circularQueue[(i+front)%maxSize]);
         }
     }
+    public int getSize() {
+        return size;
+    }
 
 }
