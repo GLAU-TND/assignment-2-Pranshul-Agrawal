@@ -14,4 +14,7 @@ public class TreeNode {
     public TreeNode(int data) {
         this.data = data;
     }
+    public int getData() {
+        return data;
+    }
 }
