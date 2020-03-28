@@ -20,4 +20,17 @@ public class MyCircularQueue {
         this.rear=0;
         this.size=0;
     }
+    public void enQueue(Student element){
+        if(!isFull()){
+            circularQueue[rear]=element;
+            rear=(rear+1)%maxSize;
+            size++;
+        }
+        else{
+            System.out.println("Queue is full.");
+        }
+    }
+    private boolean isFull(){
+        return size==maxSize;
+    }
 }
