@@ -11,5 +11,9 @@ public class Element<T> {
     public T getNode() {
         return node;
     }
+    public void setNode(T node) {
+        this.node = node;
+    }
+
 
 }
