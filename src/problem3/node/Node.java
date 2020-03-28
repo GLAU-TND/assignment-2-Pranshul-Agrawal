@@ -32,6 +32,10 @@ public class Node<T> {
     public void setPriority(int priority) {
         this.priority = priority;
     }
+    @Override
+    public String toString(){
+        return data.toString();
+    }
 
 
 
