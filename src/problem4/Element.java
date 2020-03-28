@@ -17,5 +17,8 @@ public class Element<T> {
     public T getPreOrderSuccessor() {
         return preOrderSuccessor;
     }
+    public void setPreOrderSuccessor(T preOrderSuccessor) {
+        this.preOrderSuccessor = preOrderSuccessor;
+    }
 
 }
