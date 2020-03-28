@@ -6,5 +6,8 @@
  */
 package problem3.node;
 
-public class Node {
+public class Node<T> {
+    private T data;
+    private Node next;
+    private int priority;
 }
