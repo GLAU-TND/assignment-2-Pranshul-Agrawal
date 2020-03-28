@@ -14,6 +14,9 @@ public class Node<T> {
         this.data = data;
         this.priority = priority;
     }
+    public T getData() {
+        return data;
+    }
 
 
 
