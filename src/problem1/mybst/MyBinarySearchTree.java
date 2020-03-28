@@ -107,4 +107,12 @@ public class MyBinarySearchTree {
     public TreeNode getRoot(){
         return root;
     }
+    public void postOrderTraversal(){
+        if(isEmpty()){
+            System.out.println("Tree is Empty");
+        }
+        else {
+            //postOrderTraversal(root);
+        }
+    }
 }
