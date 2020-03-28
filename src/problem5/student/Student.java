@@ -30,5 +30,8 @@ public class Student {
     public int getAppearingCount() {
         return appearingCount;
     }
+    public void setAppearingCount(int appearingCount) {
+        this.appearingCount = appearingCount;
+    }
 }
 
