@@ -53,5 +53,4 @@ public class MyQueue <T>{
             current = current.getNext();
         }
     }
-
 }
