@@ -124,4 +124,12 @@ public class MyBinarySearchTree {
         }
         System.out.println("data = "+current.getData());
     }
+    public void preOrderTraversal(){
+        if(isEmpty()){
+            System.out.println("tree is empty");
+        }
+        else {
+            //preOrderTraversal(root);
+        }
+    }
 }
