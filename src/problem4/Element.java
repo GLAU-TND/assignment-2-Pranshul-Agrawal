@@ -23,5 +23,8 @@ public class Element<T> {
     public Element getNext() {
         return next;
     }
+    public void setNext(Element next) {
+        this.next = next;
+    }
 
 }
