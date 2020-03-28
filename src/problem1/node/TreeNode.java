@@ -20,4 +20,7 @@ public class TreeNode {
     public void setData(int data) {
         this.data = data;
     }
+    public TreeNode getLeftChild() {
+        return leftChild;
+    }
 }
