@@ -9,5 +9,7 @@ public class Student {
         this.lastName = lastName;
         this.roll = roll;
     }
-
+    public String getFirstName() {
+        return firstName;
+    }
 }
