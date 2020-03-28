@@ -29,6 +29,9 @@ public class Node<T> {
     public int getPriority() {
         return priority;
     }
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
 
 
 
